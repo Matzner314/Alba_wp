@@ -1,0 +1,105 @@
+
+
+
+.header{
+    margin-top: -25px;
+    height: 790px;
+
+    .wallpaper{
+        background-image: url("../../images/background_header.png");
+        width: 100%;
+        height: 775px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+
+        .vector_5{
+
+            background-image: url("../../images/Vector_5.png");
+            width: 157px;
+            height: 775px;
+            top: 0px;
+            opacity: 1.0;
+            float: left;
+        }
+
+        .vector_6{
+        
+            background-image: url("../../images/Vector_6.png");
+            position: absolute;
+            width: 810px;
+            height: 750px;
+            top: 0px;
+            right: 0px;
+            float: right;
+
+        }
+
+        .logotype{
+            background-image: url("../../images/Isotipo+logotipo\ 1.png");
+            position: absolute;
+            width: 80px;
+            height: 105px;
+            margin-top: 35px;
+            margin-left: 25px;
+        }
+
+        .textBody{
+            margin-top: 15px;
+            margin-right: 60px;
+            margin-left: 141.5px;
+            font-family:"Roboto Slab";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 34px;
+            text-align: justify;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        .textHeader{
+
+            margin-top: 270px;
+            margin-left: 140px;
+            font-family: 'Exo 2', sans-serif;
+            font-weight:normal;
+            font-size: 21px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            .underline{
+            margin-top: 270px;
+            font-family: 'Exo 2', sans-serif;
+            font-weight:bold;
+            font-size: 21px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            }
+        }
+        .button{
+            background: #5FAA00;
+
+            position: absolute;
+            width: 343px;
+            height: 85px;
+            left: 240px;
+            top: 705px;
+            
+
+            .textButton{
+                font-family: 'Exo 2', sans-serif;
+                font-weight:bold;
+                color: #FFFFFF;
+                font-size: 25px;
+                width:250px;
+            }
+        }
+    }
+}
