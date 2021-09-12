@@ -6,7 +6,7 @@ export default function Header() {
 
     const scrollToBottom = () => {
         window.scrollTo({
-            top: document.documentElement.scrollHeight,
+            top: document?.documentElement.scrollHeight,
             behavior: 'smooth'
         });
     };
@@ -27,16 +27,13 @@ export default function Header() {
                         </Typography>
 
                         <Typography className="textBody">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas rhoncus auctor ex cursus pulvinar. Ut rutrum,
-                            leo in vestibulum fermentum, libero eros rhoncus
-                            odio, et rutrum velit metus et ligula.
+                            Con ALBA centraliza y procesa tu información técnico-económica,
+                            para planificar, evaluar y tomar deciciones oportunas
                         </Typography>
 
                         <ButtonGroup className="button">
                             <Button className="textButton" onClick={() => scrollToBottom()}>Contact</Button>
-                            {/* <Button className="textButton"><Link to="contact">Contact</Link></Button> */}
-                            <Button className="textButton">Free Tour</Button>
+                            <Button className="textButton" href="https://alba.motivus.cl/">Login</Button>
                         </ButtonGroup>
 
                     </div>

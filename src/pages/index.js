@@ -6,7 +6,6 @@ import InfoAlbaS from '../components/InfoAlbaS'
 import Socials from '../components/Socials'
 import Contact from '../components/Contact'
 import AlbaDescription from '../components/AlbaDescription'
-//import Test from '../components/test/test'
 
 export default function index() {
   return (
@@ -30,9 +29,6 @@ export default function index() {
           <InfoAlba />
           <InfoAlbaS />
           <AlbaDescription />
-        </div>
-        <div>
-          {/* <Test /> */}
         </div>
         <div>
           <Socials />

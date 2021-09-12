@@ -23,9 +23,9 @@ export default function InfoAlba() {
 
                             <p className="descriptionBody">Con <span className="underline-body">ALBA</span> podrás
                                 planificar los trabajos a realizar
-                                durante el año, definir presupuestos y  finanzas,
-                                manejar tus potreros y optimizar  las fechas de
-                                siembra y cosecha utilizando las AI
+                                durante el año, definir presupuestos, evaluar tus finanzas,
+                                manejar tus potreros y optimizar tu elección
+                                de cultivos utilizando modelación matemática.
                             </p>
                         </div>
                     </Col>

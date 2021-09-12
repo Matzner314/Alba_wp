@@ -1,8 +1,29 @@
 import React from 'react'
 import "./Contact.scss"
-import GoogleMaps from "simple-react-google-maps"
 import Separator from "../../images/separator.png"
 import { Container, Row, Col, Button, Image } from 'react-bootstrap'
+import GoogleMapReact from 'google-map-react'
+import { Icon } from 'semantic-ui-react'
+
+const iconStyle = {
+    borderRadius: '100px',
+    boxShadow: '3px 3px 1px #888888'
+}
+
+const AnyReactComponent = ({ text }) => {
+    return (
+        <div>
+            <Icon name="user circle outline"
+                color='blue'
+                size='big'
+                style={iconStyle}
+            />
+            <h6>{text}</h6>
+        </div>
+    )
+}
+
+
 
 export default function Contact() {
 
@@ -13,34 +34,38 @@ export default function Contact() {
                 <Container fluid={true}>
                     <Row className="row-contact">
                         <Col xs={12} md={6} className="col-contact">
-                            <GoogleMaps
-                                apiKey={"Your Google Api Key"}
-                                style={{ height: "844px", width: "100%" }}
-                                zoom={16}
-                                center={{ lat: -40.57539, lng: -73.1502 }}
-                                markers={{ lat: -40.57539, lng: -73.1502 }}
-                                apiKey="AIzaSyCGNXfV_VLpkF9hXA2xQdqUqkyLetdb6Jk"
-                            />
+                            <GoogleMapReact
+                                bootstrapURLKeys={{ key: "AIzaSyCdmyz_1zBhxCrsYm15R11W9pdnsiUFyFA" }}
+                                defaultCenter={{ lat: -40.581710, lng: -73.134155 }}
+                                defaultZoom={16}
+                            >
+                                <AnyReactComponent
+                                    lat={-40.581710}
+                                    lng={-73.134155}
+                                    text="Oficinas Alba (Matta 1248)"
+
+                                />
+                            </GoogleMapReact>
                         </Col>
                         <Col xs={12} md={5} className="col-form">
                             <div className="shapes">
                                 <h1>Contáctanos</h1>
-                                <form method="post" action="#" >
+                                <form method="post" action="https://formspree.io/f/xayavwnz" method="POST" >
                                     <label>
                                         <h2>Nombre</h2>
-                                        <input type="text" name="nombre" id="name" className="input-form" />
+                                        <input type="text" name="Nombre" id="name" className="input-form" required />
                                     </label>
                                     <label>
                                         <h2>Email</h2>
-                                        <input type="text" name="e-mail" id="Email" className="input-form" />
+                                        <input type="email" name="Correo" id="Email" className="input-form" required />
                                     </label>
                                     <label>
                                         <h2>Teléfono</h2>
-                                        <input type="text" name="telefono" id="phone" className="input-form" />
+                                        <input type="text" name="Teléfono" id="phone" className="input-form" />
                                     </label>
                                     <label>
                                         <h2>Escribe tu mensaje</h2>
-                                        <input type="text" name="mensaje" id="message" className="input-message" />
+                                        <input type="text" name="Mensaje" id="message" className="input-message" required />
                                     </label>
                                     <br />
                                     <Button type="submit" variant="outline-warning" className="button">Enviar</Button>

@@ -15,16 +15,16 @@ export default function Socials() {
             <div>
                 <Container>
                     <Row className="definition">
-                        <Col xs={12} md={6} xl={3}>
+                        <Col xs={12} md={6} xl={4}>
                             <Image src={Motivus}></Image>
                         </Col >
-                        <Col xs={12} md={6} xl={3}>
+                        <Col xs={12} md={6} xl={4}>
                             <Image src={Corfo} className="form-c"></Image>
                         </Col>
-                        <Col xs={12} md={6} xl={3}>
+                        {/* <Col xs={12} md={6} xl={3}>
                             <Image src={Sii} className="form-s"></Image>
-                        </Col>
-                        <Col xs={12} md={6} xl={3}>
+                        </Col> */}
+                        <Col xs={12} md={6} xl={4}>
                             <Image src={Dairylink} className="form-d"></Image>
                         </Col>
                     </Row>

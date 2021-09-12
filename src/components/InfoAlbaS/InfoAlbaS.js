@@ -12,17 +12,18 @@ export default function InfoAlbaS() {
                         <div>
                             <h2 className="descriptionHeader">
                                 <span className="underline">ALBA</span> es
-                                para cualquier poductor lechero, que dese
-                                facilitar y optimizar su producción
+                                para cualquier poductor lechero, que desee
+                                facilitar y optimizar su producción.
                             </h2>
 
                             <p className="descriptionBody">
-                                Accede de forma rapida y facil a la información de tu campo,
-                                Planea y proyecta en cambios y observa resultados en tiempo real.
+                                Accede de forma rápida y fácil a la información de tu campo.
+                                Descarga tu planificación y compártela con tu equipo de trabajo.
                                 <br />
                                 <br />
-                                Nuestra Interfaz esta desarrollada de forma intuitiva para que
-                                tengas claridad de tus planes financieros y agronomos.
+                                Nuestra interfáz esta desarrollada de forma intuitiva
+                                para que tengas claridad en la organización de
+                                tu plan agronómico y financiero.
 
                                 <p className="bold">En <span className="underline-body">ALBA</span> tu exito, es nuestro exito !</p>
                             </p>
