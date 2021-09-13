@@ -7,6 +7,7 @@ import "./AlbaDescriptio.scss"
 import image1 from "../../images/background_header.png"
 import image2 from "../../images/description1.png"
 import Finanzas from "../../images/Finanzas.jpg"
+import image3 from "../../images/grafico.png"
 //import { Carousel } from 'react-bootstrap';
 
 const useStyles = makeStyles({
@@ -123,7 +124,7 @@ export default function CenteredTabs() {
                                     <div className="div-margin">
                                         <img
                                             className="image-style2"
-                                            src={image1}
+                                            src={image3}
                                             alt="First slide"
                                         />
                                     </div>
@@ -185,7 +186,7 @@ export default function CenteredTabs() {
                                             <Carousel.Item> */}
                                         <div className="div-margin">
                                             <img
-                                                className="image-style"
+                                                className="image-style1"
                                                 src={Finanzas}
                                                 alt="First slide"
                                             />

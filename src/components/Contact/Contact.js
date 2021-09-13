@@ -33,7 +33,7 @@ export default function Contact() {
             <div className="contact">
                 <Container fluid={true}>
                     <Row className="row-contact">
-                        <Col xs={12} md={6} className="col-contact">
+                        <Col xs={6} md={6} className="col-contact">
                             <GoogleMapReact
                                 bootstrapURLKeys={{ key: "AIzaSyCdmyz_1zBhxCrsYm15R11W9pdnsiUFyFA" }}
                                 defaultCenter={{ lat: -40.581710, lng: -73.134155 }}
@@ -47,7 +47,7 @@ export default function Contact() {
                                 />
                             </GoogleMapReact>
                         </Col>
-                        <Col xs={12} md={5} className="col-form">
+                        <Col xs={6} md={6} className="col-form">
                             <div className="shapes">
                                 <h1>Contáctanos</h1>
                                 <form method="post" action="https://formspree.io/f/xayavwnz" method="POST" >

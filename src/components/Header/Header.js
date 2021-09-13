@@ -32,8 +32,8 @@ export default function Header() {
                         </Typography>
 
                         <ButtonGroup className="button">
-                            <Button className="textButton" onClick={() => scrollToBottom()}>Contact</Button>
-                            <Button className="textButton" href="https://alba.motivus.cl/">Login</Button>
+                            <Button className="textButton" onClick={() => scrollToBottom()}>Contacto</Button>
+                            <Button className="textButton" href="https://alba.motivus.cl/">Ingresar</Button>
                         </ButtonGroup>
 
                     </div>
