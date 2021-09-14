@@ -1,0 +1,28 @@
+.video-shape{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 1200px;
+
+    .sobre_nosotros{
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    .boold{
+        font-family: "Exo 2", sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #5FAA00;
+    }
+
+    .video{
+        margin-bottom: 40px;
+    }
+}

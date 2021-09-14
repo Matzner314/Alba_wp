@@ -1,9 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 import "./Socials.scss"
 import Motivus from "../../images/motivus.png"
 import Corfo from "../../images/corfo.png"
-import Sii from "../../images/sii.png"
 import Dairylink from "../../images/dairylink.png"
 import LogoGob from "../../images/logo-gob.png"
 

@@ -4,7 +4,6 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import "./AlbaDescriptio.scss"
-import image1 from "../../images/background_header.png"
 import image2 from "../../images/description1.png"
 import Finanzas from "../../images/Finanzas.jpg"
 import image3 from "../../images/grafico.png"

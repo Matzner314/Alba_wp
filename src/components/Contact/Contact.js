@@ -50,7 +50,7 @@ export default function Contact() {
                         <Col xs={6} md={6} className="col-form">
                             <div className="shapes">
                                 <h1>Contáctanos</h1>
-                                <form method="post" action="https://formspree.io/f/xayavwnz" method="POST" >
+                                <form method="post" action="https://formspree.io/f/mbjqwlbq" method="POST" >
                                     <label>
                                         <h2>Nombre</h2>
                                         <input type="text" name="Nombre" id="name" className="input-form" required />

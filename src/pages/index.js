@@ -6,6 +6,7 @@ import InfoAlbaS from '../components/InfoAlbaS'
 import Socials from '../components/Socials'
 import Contact from '../components/Contact'
 import AlbaDescription from '../components/AlbaDescription'
+import Video from "../components/Video"
 
 export default function index() {
   return (
@@ -29,6 +30,7 @@ export default function index() {
           <InfoAlba />
           <InfoAlbaS />
           <AlbaDescription />
+          <Video />
         </div>
         <div>
           <Socials />
