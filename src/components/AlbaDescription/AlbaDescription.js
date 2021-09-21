@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import "./AlbaDescriptio.scss"
-import image2 from "../../images/description1.png"
+import image2 from "../../images/ejemplo_campo.png"
 import Finanzas from "../../images/Finanzas.jpg"
 import image3 from "../../images/grafico.png"
 //import { Carousel } from 'react-bootstrap';
@@ -64,7 +64,6 @@ export default function CenteredTabs() {
                                     <img
                                         className="image-style"
                                         src={image2}
-                                        alt="First slide"
                                     />
                                 </div>
                                 <div>

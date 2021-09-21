@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./InfoAlbaS.scss"
-import TechImage from "../../images/image 3.png"
+import TechImage from "../../images/tecFarm .png"
 
 export default function InfoAlbaS() {
     return (
@@ -31,7 +31,7 @@ export default function InfoAlbaS() {
                     </Col>
 
                     <Col xs={6} md={6} className="col-2">
-                        <Image src={TechImage} class="img-fluid" alt="Responsive image" className="img"></Image>
+                        <Image src={TechImage} class="img-fluid" alt="Responsive image" className="imgg"></Image>
                     </Col>
                 </Row>
             </Container>
