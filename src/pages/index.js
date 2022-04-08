@@ -7,6 +7,7 @@ import Socials from '../components/Socials'
 import Contact from '../components/Contact'
 import AlbaDescription from '../components/AlbaDescription'
 import Video from "../components/Video"
+import WebTheme from '../components/Theme'
 
 export default function index() {
   return (
@@ -24,20 +25,25 @@ export default function index() {
       </head>
 
       <body className="marings">
+        <WebTheme>
+          <div>
+            <div>
 
-        <div>
-          <Header />
-          <InfoAlba />
-          <InfoAlbaS />
-          <AlbaDescription />
-          <Video />
-        </div>
-        <div>
-          <Socials />
-        </div>
-        <div>
-          <Contact />
-        </div>
+              <Header />
+
+            </div>
+            <InfoAlba />
+            <InfoAlbaS />
+            <AlbaDescription />
+            <Video />
+          </div>
+          <div>
+            <Socials />
+          </div>
+          <div>
+            <Contact />
+          </div>
+        </WebTheme>
 
       </body>
 

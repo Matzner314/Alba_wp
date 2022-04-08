@@ -1,9 +1,23 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import { makeStyles, Typography, } from '@material-ui/core'
 import "./InfoAlba.scss"
 import plataformImage from "../../images/fotomontaje 1.png"
 
+const useStyles = makeStyles((theme) => ({
+    descriptionHeader: {
+        marginTop: '80px',
+
+    },
+    bold: {
+        fontFamily: 'Exo 2',
+    },
+}))
+
 export default function InfoAlba() {
+
+    const classes = useStyles()
+
     return (
         <div className="section">
             <Container className="box">
@@ -14,12 +28,12 @@ export default function InfoAlba() {
 
                     <Col xs={5} md={5}>
                         <div>
-                            <h2 className="descriptionHeader">
-                                <span className="underline">ALBA</span> es una
-                                aplicación web que te ayudará
+                            <Typography variant='h1' className={classes.descriptionHeader}>
+                                <Typography variant='h3' className={classes.bold}>ALBA</Typography> es una
+                                aplicación web  que te ayudará
                                 a manejar todo el ecosistema de tu
                                 campo lechero
-                            </h2>
+                            </Typography>
 
                             <p className="descriptionBody">Con <span className="underline-body">ALBA</span> podrás
                                 planificar los trabajos a realizar

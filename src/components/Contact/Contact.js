@@ -50,7 +50,7 @@ export default function Contact() {
                         <Col xs={6} md={6} className="col-form">
                             <div className="shapes">
                                 <h1>Contáctanos</h1>
-                                <form method="post" action="https://formspree.io/f/mbjqwlbq" method="POST" >
+                                <form method="post" action="https://formspree.io/f/mbjqwlbq">
                                     <label>
                                         <h2>Nombre</h2>
                                         <input type="text" name="Nombre" id="name" className="input-form" required />
@@ -74,7 +74,7 @@ export default function Contact() {
                             <div className="contact-number">
                                 Teléfono de contacto:
                                 <br />
-                                <p className="number">+56968710867 - Felipe Hernández, +56997003470 - Pablo Loaiza</p>
+                                <p className="number">+56985972891 - Christian Matzner, +56997003470 - Pablo Loaiza</p>
                                 <Image src={Separator} className="separator"></Image>
                             </div>
 

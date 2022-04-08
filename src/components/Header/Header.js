@@ -1,8 +1,44 @@
-import { Typography, Button, ButtonGroup } from '@material-ui/core'
+import { Typography, Button, ButtonGroup, makeStyles } from '@material-ui/core'
 import React from 'react'
 import "./Header.scss"
 
+
+const useStyles = makeStyles((theme) => ({
+    bold: {
+        fontWeight: 700,
+        textTransform: 'uppercase'
+    },
+
+    titleHeader: {
+        marginTop: '270px',
+        marginLeft: '140px',
+        textTransform: 'uppercase',
+        lineHeight: '25px',
+        fontWeight: 'normal',
+    },
+
+    titleBody: {
+        textTransform: 'uppercase',
+        marginLeft: '17%',
+        marginRight: '60px',
+        marginTop: '15px',
+        lineHeight: '34px',
+        textAlign: 'justify'
+    },
+
+    buttonText: {
+        textTransform: 'uppercase',
+        fontSize: '25px',
+        fontWeight: 'bold',
+        width: '250px',
+        color: '#FFFFFF'
+    }
+}))
+
+
 export default function Header() {
+
+    const classes = useStyles()
 
     const scrollToBottom = () => {
         window.scrollTo({
@@ -12,7 +48,6 @@ export default function Header() {
     };
 
     return (
-
         <div className="header">
             <div className="wallpaper">
                 <div className="vector_5" />
@@ -20,13 +55,13 @@ export default function Header() {
                 <div className="vector_6">
 
                     <div>
-                        <Typography className="textHeader">
+                        <Typography variant='h5' color="primary" className={classes.titleHeader}>
                             El futuro de la administración para
-                            <span className="underline"> lecherías </span>
+                            <span className={classes.bold}> lecherías </span>
                             esta aquí
                         </Typography>
 
-                        <Typography className="textBody">
+                        <Typography variant='h4' color='primary' className={classes.titleBody}>
                             Con ALBA centraliza y procesa tu información técnico-económica,
                             para planificar, evaluar y tomar deciciones oportunas
                         </Typography>
@@ -35,10 +70,10 @@ export default function Header() {
                             <Button className="textButton" onClick={() => scrollToBottom()}>Contacto</Button>
                             <Button className="textButton" href="https://alba.motivus.cl/">Ingresar</Button>
                         </ButtonGroup>
-
                     </div>
                 </div>
             </div >
         </div >
+
     )
 }
