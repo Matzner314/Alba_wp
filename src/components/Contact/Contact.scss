@@ -1,75 +1,75 @@
-.contact{
+.contact {
     margin-top: 140px;
     padding: 0px;
     background: #1E1E1E;
 
-    
+
 }
 
-.row-contact{
+.row-contact {
     padding: 0px;
-    width:100%;
+    width: 100%;
     margin-left: -25px;
 }
 
-.col-contact{
+.col-contact {
     margin: 0px;
     background: #1E1E1E;
     box-sizing: border-box;
 }
 
-.col-form{
+.col-form {
     margin: 0px;
     background: #1E1E1E;
     box-sizing: border-box;
 
-    .shapes{
-        
-        h1{
-        font-family: "Exo 2";
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 58px;
-        color: #FFFFFF;
-        margin-top: 59px;
-        margin-left: 50px;
-        margin-bottom: 20px;
-        }
-        
+    .shapes {
 
-        h2{
-        font-family: "Roboto Slab";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 21px;
-        line-height: 28px;
-        color: #FFFFFF;
-        margin-left: 50px;
-        margin-top:21px
+        h1 {
+            font-family: "Exo 2";
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 58px;
+            color: #FFFFFF;
+            margin-top: 59px;
+            margin-left: 50px;
+            margin-bottom: 20px;
         }
-        
 
-        button{
+
+        h2 {
+            font-family: "Roboto Slab";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 21px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin-left: 50px;
+            margin-top: 21px
+        }
+
+
+        button {
             margin-left: 50px;
             margin-top: 33px;
             width: 490px;
-            
+
         }
 
-        .input-form{
+        .input-form {
             margin-left: 50px;
             width: 493px;
         }
 
-        .input-message{
+        .input-message {
             margin-left: 50px;
             width: 493px;
             height: 168px;
         }
-        
+
     }
 
-    .contact-number{
+    .contact-number {
         font-family: "Roboto Slab";
         font-style: normal;
         font-weight: 300;
@@ -77,9 +77,9 @@
         line-height: 24px;
         margin-left: 65px;
         margin-top: 50px;
-        color:white;
+        color: white;
 
-        .number{
+        .number {
             font-family: Exo 2;
             font-style: normal;
             font-weight: bold;
@@ -90,9 +90,9 @@
             color: #FFFFFF;
         }
     }
-    .separator{
+
+    .separator {
         margin-top: -112.5px;
         margin-left: -15px;
     }
-
 }

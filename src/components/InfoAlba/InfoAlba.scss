@@ -1,10 +1,8 @@
-.section{
-
-    margin-top: 150px;
-    margin-bottom: 92px;
+.section {
+    padding-top: 800px;
 }
 
-.box{
+.box {
     padding: 0;
     width: 1200px;
     min-width: 1200px;
@@ -15,13 +13,13 @@
 
 }
 
-.info{
+.info {
     padding: 0px;
     height: 630px;
     width: 1300px;
     min-width: 1300px;
 
-    .descriptionHeader{
+    .descriptionHeader {
 
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
@@ -29,10 +27,10 @@
         line-height: 100%;
         align-items: Left;
         margin-top: 80px;
-        line-height : 50px;
+        line-height: 50px;
         color: black;
-    
-        .underline{
+
+        .underline {
             font-family: 'Exo 2', sans-serif;
             font-weight: bold;
             font-size: 36px;
@@ -41,7 +39,7 @@
         }
     }
 
-    .descriptionBody{
+    .descriptionBody {
         font-family: 'Roboto Slab', serif;
         font-weight: 300;
         font-size: 24px;
@@ -50,7 +48,7 @@
 
         color: #000000;
 
-        .underline-body{
+        .underline-body {
             font-family: 'Exo 2', sans-serif;
             font-weight: 600;
             font-size: 24px;

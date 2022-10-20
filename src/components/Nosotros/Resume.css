@@ -1,0 +1,21 @@
+.shape {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+
+.textshape {
+    padding-top: 80px;
+    margin-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    font-size: 1.2rem;
+    font-family: "Roboto-slab";
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Roboto-slab";
+    margin-left: 3rem;
+}

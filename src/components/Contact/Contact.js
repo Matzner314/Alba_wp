@@ -3,7 +3,7 @@ import "./Contact.scss"
 import Separator from "../../images/separator.png"
 import { Container, Row, Col, Button, Image } from 'react-bootstrap'
 import GoogleMapReact from 'google-map-react'
-import { Icon } from 'semantic-ui-react'
+import { Icon } from '@iconify/react';
 
 const iconStyle = {
     borderRadius: '100px',
@@ -13,10 +13,7 @@ const iconStyle = {
 const AnyReactComponent = ({ text }) => {
     return (
         <div>
-            <Icon name="user circle outline"
-                color='blue'
-                size='big'
-                style={iconStyle}
+            <Icon icon="location-filled" color="White" width="50"
             />
             <h6>{text}</h6>
         </div>
@@ -74,7 +71,9 @@ export default function Contact() {
                             <div className="contact-number">
                                 Teléfono de contacto:
                                 <br />
+
                                 <p className="number">+56985972891 - Christian Matzner, +56997003470 - Pablo Loaiza</p>
+
                                 <Image src={Separator} className="separator"></Image>
                             </div>
 

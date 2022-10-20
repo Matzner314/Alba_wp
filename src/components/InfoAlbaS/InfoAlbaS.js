@@ -5,7 +5,7 @@ import TechImage from "../../images/tecFarm .png"
 
 export default function InfoAlbaS() {
     return (
-        <div className="section">
+        <div className="sectionS">
             <Container className="box">
                 <Row className="info">
                     <Col xs={5} ms={5}>
